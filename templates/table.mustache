@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="style/styles.css">
+{{#.}}
+<div>
+    <br>
+    <table id="">
+        <tr>
+            <th>{{#str}} table_name, block_dode {{/str}}</th>
+            <th>{{#str}} table_lastname, block_dode {{/str}}</th>
+            <th>{{#str}} table_login, block_dode {{/str}}</th>
+            <th>{{#str}} table_course, block_dode {{/str}}</th>
+            <th>{{#str}} table_actions, block_dode {{/str}}</th>
+        </tr>
+        {{#students}}
+            <tr>
+                <td>{{firstname}}</td>
+                <td>{{lastname}}</td>
+                <td>{{login}}</td>
+                <td>{{subjects}}</td>
+                <td><a href="{{root}}/blocks/dode/subjects.php?instanceid={{instanceid}}&courseid={{courseid}}&userid={{id}}">editar</a></td>
+            </tr>
+        {{/students}}
+
+    </table>
+</div>
+{{/.}}
+
+<style>
+
+</style>

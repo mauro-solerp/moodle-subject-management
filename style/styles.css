@@ -1,0 +1,32 @@
+body#page-blocks-dode-subjects div.fitem_fgroup {
+	margin: 20px 0 !important;
+}
+
+body#page-blocks-dode-subjects fieldset.fgroup>span {
+	display: block;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.subjects{
+	justify-content:center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto ;
+}
